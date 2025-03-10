@@ -893,6 +893,10 @@ progress {
 }
 
 @media (min-width: 576px) {
+  li i {
+    font-size: 0.8rem !important;
+  }
+
   .col-sm {
     flex: 1 0 0%;
   }
@@ -11757,3 +11761,4 @@ justify-items: center;
 li + li {
   margin-top: 1%;
 }
+
