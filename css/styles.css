@@ -893,9 +893,6 @@ progress {
 }
 
 @media (min-width: 576px) {
-  li i {
-    font-size: 0.8rem !important;
-  }
 
   .col-sm {
     flex: 1 0 0%;
@@ -1939,6 +1936,10 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  li i {
+    font-size: 0.8rem ;
+  }
+
 }
 @media (max-width: 767.98px) {
   .table-responsive-md {
