@@ -1211,8 +1211,15 @@ button:disabled,
   flex-direction: row;
 }
 
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
 .image-round{
   border-radius: 25px;
+ 
 }
 
 .image-shadow{
@@ -1231,5 +1238,5 @@ justify-items: center;
 }
 
 li + li {
-  margin-top: 10px;
+  margin-top: 1%;
 }
