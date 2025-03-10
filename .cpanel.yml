@@ -3,6 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/hkdcfgyd/ngkstrand/
     - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
     - /bin/cp *.* $DEPLOYPATH
     
